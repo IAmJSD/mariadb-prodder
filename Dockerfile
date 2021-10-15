@@ -8,4 +8,3 @@ RUN apk add ca-certificates
 WORKDIR /var/app
 COPY --from=0 /var/app/app /var/app/app
 ENTRYPOINT ./app
-+
